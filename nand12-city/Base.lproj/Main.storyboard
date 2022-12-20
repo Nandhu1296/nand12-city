@@ -15,7 +15,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kQh-Hv-7OE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="Yih-rk-6Ih" kind="relationship" relationship="viewControllers" id="V2G-nn-vOG"/>
@@ -27,11 +27,11 @@
             </objects>
             <point key="canvasLocation" x="-802" y="170"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="npi-3B-VlL">
             <objects>
                 <navigationController id="Yih-rk-6Ih" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="daX-GX-qvK"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="daX-GX-qvK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JaA-6e-JGR">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -60,11 +60,11 @@
             </objects>
             <point key="canvasLocation" x="1273" y="889"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="vQk-RQ-aSx">
             <objects>
                 <navigationController id="bZr-0P-icn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="wtD-Df-uJy"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.2.fill" catalog="system" id="wtD-Df-uJy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nOc-Lv-ilJ">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -77,11 +77,11 @@
             </objects>
             <point key="canvasLocation" x="337" y="889"/>
         </scene>
-        <!--Item-->
+        <!--Contact-->
         <scene sceneID="NkV-LU-7eJ">
             <objects>
                 <navigationController id="Wc5-fS-3o4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="eM2-RN-I5e"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="phone.fill" catalog="system" id="eM2-RN-I5e"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="utI-87-ggX">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -128,6 +128,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gearshape.2.fill" catalog="system" width="128" height="101"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
